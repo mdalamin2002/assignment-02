@@ -203,12 +203,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 .btn-three{
   color: #8700FF;
+  
 }
 .icon-img{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10px
+  gap:10px;
+  margin-bottom: 20px ;
   
 }
 .icon{
@@ -220,10 +222,66 @@ text-align: center;
 
 
 }
-.arrow{
-  /* width: 60px; */
+.bg-section{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  
+}
+.stories{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ gap: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
  
 }
+.left img{
+width: 100%;
+height: auto;
+ border-radius: 16px 16px 0px 0px;
+ 
+}
+.box img{
+  width: 100%;
+  height: auto;
+  border-radius: 16px 16px 0px 0px;
+  
+}
+.box{
+  background-color: white;
+}
+.left{
+  background-color: white;
+}
+.left, .right{
+  border-radius: 16px 16px 0px 0px;
+  margin-bottom: 10px;
+ 
+  
+}
+.story-btn{
+
+  border: none;
+  padding: 12px 15px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  margin-top: -80px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.right{
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  gap: 10px;
+  grid-template-rows: auto auto;
+}
+
+ 
 
 @media screen and (max-width: 576px) {
   .logo-img, .logo-name{
@@ -237,9 +295,7 @@ text-align: center;
     max-width:700px;
     margin: 0 auto;
   } */
-  nav{
-    
-  }
+  
   .navbar, .btn-contact, h4, .icon-img{
     display: none;
   }
