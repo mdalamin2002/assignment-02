@@ -376,10 +376,9 @@ font-weight: 700;
   
  }
 .social-icon{
-  /* display: flex;
-  flex-direction: column; */
+  
   margin-right: 20px;
-  margin-left: 120px;
+  
   margin-top: -10px;
 }
 .social-icon img{
