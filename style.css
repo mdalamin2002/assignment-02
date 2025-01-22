@@ -140,7 +140,7 @@ a{
   padding: 40px 0;
 }
 marquee{
-  
+  color: green;
   border: 1px solid rgb(168, 167, 167);
   font-weight: 600;
   text-align: center;
@@ -490,7 +490,7 @@ font-weight: 400;
     order: 2;
   }
   .hero-img{
-    width: 485px;
+    width: 100%;
     order: 1;
   }
   .card{
@@ -537,7 +537,9 @@ font-weight: 400;
     margin-top: 30px;
   }
 
- 
+ .logo-footer{
+  margin-left: 30px;
+ }
   .about-school{
     flex-direction: column;
     margin-top: -50px;
@@ -554,15 +556,7 @@ font-weight: 400;
   
   
   }
-  .social-icon{
-    /* flex-direction: column; */
-    
-      /* display: flex;
-      flex-direction: column; */
-      /* margin-right: 0px;
-      margin-left: 50px;
-      margin-top: 10px; */
-    }
+ 
     .footer-about li a{
       flex-direction: column;
       margin-left: -10px ;
@@ -570,7 +564,7 @@ font-weight: 400;
       margin: 0;
       gap: 0;
       margin-top: -10px;
-      text-align: start;
+      text-align: left;
     
     
       
@@ -580,7 +574,7 @@ font-weight: 400;
       /* display: flex;
       flex-direction: column; */
       margin-right: 0px;
-      margin-left: -29px;
+      margin-left: -20px;
       margin-top: 30px;
     }
     .social-icon img{
@@ -592,15 +586,33 @@ font-weight: 400;
     .social-title{
       color: white;
       margin-bottom: 20px;
+      margin-left: 20px;
      
     
       
       
     }
     .footer-title{
-      margin-top: 0px;
-      margin-left:0px;
+      margin-top: -50px;
+      margin-left:60px;
     }
-
+    marquee{
+      width: 100%;
+    }
+    .footer-description{
+      /* display: block; */
+      /* text-align: left; */
+      margin-top: 10px;
+    }
+    .about-title{
+      margin-top: -20px;
+      margin-left: -20px;
+    }
+    .about-school{
+      margin-left: 15px;
+    }
+    .icon-last{
+      margin-left: -5px;
+    }
   }
   
