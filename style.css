@@ -84,6 +84,7 @@ a{
 .admission {
   color: #5D58EF;
 }
+/* shared btn */
 .btn {
   background-color: orange;
   color: white;
@@ -138,12 +139,16 @@ a{
   margin-bottom: 20px; */
   padding: 40px 0;
 }
-.scroll{
+marquee{
   font-weight: 700;
   text-align: center;
   font-size: 1.25rem;
   margin-bottom: 10px;
+  background-color: rgb(247, 254, 247);
+  margin-top: 20px;
+  border-radius: 10px;
 }
+/* card related style */
 .card{
   display: flex;
   align-items: center;
@@ -234,6 +239,7 @@ text-align: center;
   background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   
 }
+/* our stories  */
 .stories{
   
  display: grid;
@@ -362,14 +368,14 @@ font-weight: 700;
  footer{
   background-color: #01ACFD;
   /* padding: 50px; */
-  padding-bottom: 50px;
+  padding-bottom: 10px;
  }
  .footer-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
  
-  margin-bottom: 100px;
+  margin-bottom: 50px;
  
  
   
@@ -527,19 +533,8 @@ font-weight: 400;
   .story-2-title{
     margin-top: 30px;
   }
-  .logo-footer{
-/* margin-left: -270px; */
-/* display: flex; */
-/* margin-top: -50px; */
-/* margin-left: -130px; */
-  }
-  /* .logo-name{
-    flex-direction: column;
-  } */
-  .footer-description{
-    /* margin-left: 120px; */
-    /* margin-left: 13px; */
-  }
+
+ 
   .about-school{
     flex-direction: column;
     margin-top: -50px;
@@ -557,49 +552,43 @@ font-weight: 400;
   
   }
   .social-icon{
-    flex-direction: column;
+    /* flex-direction: column; */
     
       /* display: flex;
       flex-direction: column; */
-      margin-right: 0px;
+      /* margin-right: 0px;
       margin-left: 50px;
-      margin-top: 0px;
+      margin-top: 10px; */
     }
     .footer-about li a{
       flex-direction: column;
-      /* margin-left: -10px ; */
+      margin-left: -10px ;
      
       margin: 0;
       gap: 0;
       margin-top: -10px;
-      text-align: left;
+      text-align: start;
     
     
       
     }
-    .footer-about{
-      /* display: flex;
-      flex-direction: column; */
-      /* gap: 15px; */
-      /* margin-bottom: -40px; */
-      /* gap:6px; */
-      
-    }
+    
     .social-icon{
       /* display: flex;
       flex-direction: column; */
       margin-right: 0px;
       margin-left: -29px;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     .social-icon img{
       width: 10%;
-      margin-right: 5px;
+      margin-right: 4px;
+      margin-top: -40px;
       
     }
     .social-title{
       color: white;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
      
     
       
